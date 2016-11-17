@@ -1,8 +1,8 @@
 #include<ESP8266WiFi.h>
 #include<PubSubClient.h>
 
-const char* ssid="HARLEEN KAUR";
-const char* pass="KARMANSINGH2712";
+const char* ssid="YOUR NETWORK SSID";
+const char* pass="YOUR PASSWORD";
 const char* server="broker.mqtt-dashboard.com"; 
 int ldrPin=A0;
 int ledPin=13;
