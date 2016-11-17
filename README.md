@@ -1,6 +1,6 @@
 # Implementing-Publish-Subscribe-model-using-MQTT-protocol
 
-<b>OBJECTIVE</b>-To publish the current values of intensity of light within an area using LDR sensor on MQTT Broker which mqtt client from anywhere at any point of time can subscribe to and use it for processing also at the same time we subscribe to another topic which give the status of led (value the user publishes at real time) and reflect that behavious of led(whether on or off) on our led connected to our Nodemcu.<br><br>
+<b>OBJECTIVE</b>-To publish the current values of intensity of light within an area on MQTT Broker which any remote mqtt client at any point of time can subscribe to and use that value for processing also simltaneously subscribed to another topic which give the status of led (value the user publishes at real time on the same topic) and that value(whether on/off) is then passed to led connected to the subscriber<br><br>
 <b>DESCRIPTION</b>
 •	Used HIVEMQ MQTT broker to carry out the Publish-Subscribe request.<br>
 •	The values of LDR sensor is being published to the MQTT Broker under topic name "ldrval" which any mqtt client after establishing connection with mqtt server can subscribe to and process it in some way.<br>
