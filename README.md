@@ -8,6 +8,6 @@
 •	This all happens without any time lag and therefeore appears to be in real time.<br>
 •	Also it offers an advantage that we can publish to and subscribe from the broker to different topics at same time.<br><br>
 <b>HIVEMQ WebSocket Client</b><br>
-
+<img src="https://cloud.githubusercontent.com/assets/23056679/20396987/0ba808aa-ad0e-11e6-8b5a-ae5012cefc62.jpg">
 <b>ABOUT MQTT</b><br><br>
 MQTT is a light-weight, open and scalable protocol for the Internet of Things. Near real time delivery of messages in an efficient, cost-effective way, even in unreliable networks, is where MQTT excels.MQTT is an open protocol, standardized by OASIS and ISO (ISO/IEC 20922:2016). It is widely adopted by many devices and companies worldwide for data exchange with constrained devices or products out in the field. MQTT keeps bandwidth at an absolute minimum and deals with unreliable networks without complex error handling and a huge implementation effort. It was made for keeping an steady line to your devices at a minimal cost supporting real push notifications and near real time communication.
